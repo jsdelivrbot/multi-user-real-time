@@ -1,0 +1,17 @@
+{
+  "board": {
+    "elements": {
+      "1": {
+        "id": "1",
+        "type": "circle",
+        "attrs": {
+          "r": 50
+        },
+        "position": {
+          "x": 472,
+          "y": 229
+        }
+      }
+    }
+  }
+}
