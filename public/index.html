@@ -2,7 +2,7 @@
 
 <head>
 
-    <title>FORM-DEMO</title>
+    <title>App</title>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
                             });
 
                             circle.on("dragmove", function (e) {
-                                app.socket.emit("save:position", {
+                                app.socket.emit("on:position", {
                                     id: element.id,
                                     position: {
                                         x: circle.x(),
