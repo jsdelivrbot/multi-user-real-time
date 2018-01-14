@@ -39,7 +39,7 @@ app.use(function (req, res, next) {
 
 
 const port = 80;
-http.listen(port, function (err) {
+http.listen(process.env.PORT || port, function (err) {
     if (err) {
         console.log(err);
         return;
