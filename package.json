@@ -2,7 +2,7 @@
   "name": "back",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "node main.js"
   },
@@ -16,5 +16,9 @@
   "engines": {
     "node": "8.9.4",
     "npm": "5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathikdevani/multi-user-real-time"
   }
 }
